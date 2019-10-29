@@ -19,6 +19,19 @@
       width: 220px;
     }    
   }
+  .consultation {
+    text-align: center;
+    .title {
+      font-size: 30px;
+    }
+    &__descr {
+      margin-top: 30px;
+    }
+    .feed-form {
+      margin: 30px auto;
+      width: 70%;
+    }
+  }
 }
 
 @media(max-width: 767px) {
@@ -101,6 +114,17 @@
     margin-bottom: 20px;
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+  .consultation {
+    .title {
+      font-size: 25px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+    .button_submit {
+      font-size: 14px;
     }
   }
 }
